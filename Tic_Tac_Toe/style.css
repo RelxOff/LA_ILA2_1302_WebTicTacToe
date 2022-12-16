@@ -1,0 +1,29 @@
+#game-container {
+    text-align: center;
+}
+
+#tic-tac-toe-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 15rem;
+    margin: auto;
+}
+
+.cell {
+    width: 5rem;
+    height: 5rem;
+    border: 0.125rem solid black;
+    box-shadow: 0 0 0 0.125rem;
+    cursor: pointer;
+    font-size: 4.5rem;
+    line-height: 5rem;
+}
+
+.engame-status {
+    display: none;
+    text-align: center;
+}
+
+#begin-question {
+    margin: 0;
+}
